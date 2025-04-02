@@ -1,0 +1,127 @@
+
+/* adicionando a fonte no css */
+.roboto-uniquifier {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* estilizando o corpo com html(inserindo cores, centralizando os elementos... */
+body {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #02030A, #0A1725, #1F3648, #3E5C73, #5A7C91);
+    background-size: 400% 400%;
+}
+
+/* estilizando o conteudo onde contém a imagem e o formulário( adicionando bordas, deixando eles na mesma linha...)  */
+.conteudo{
+    display: flex; 
+    flex-direction: row;
+    align-items: stretch; 
+    justify-content: center; 
+    border: 3px solid #1F3648;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* inserindo a fonte no h1 */
+h1{
+    font-family: "Roboto", sans-serif;
+}
+/* estilizando a linha que colocamos em baixo da palavra cadastro */
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+/* estilizando o formulário(deixando os inputs e o botão centralizados...) */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    background-color: white;
+    
+}
+
+/* estilizando o input: deixando ele com uma decoração mais simples */
+input{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+}
+
+/* deixando os inputs e o botão centralizados */
+.dados-requeridos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+/* estilizando o botão; inserindo cores em gradient, adicionando um hover para quando o usuário colocar o ouse em cima do botão a cor ter uma váriação */
+button {
+    width: 70%;
+    margin: 7px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+   background: linear-gradient(45deg, #382BE5, #3697E0, #36E0BC   );
+    color: white;
+}
+
+button:hover{
+    background: linear-gradient(45deg, #281EE6, #1E77E1, #1D7BE0   );
+    color: white;
+}
+
+/* ajustando a imagem e o formulário */
+.imagem, .formulario {
+    flex: 1; 
+    max-width: 500px; 
+    height: auto; 
+ 
+}
+
+/* inserindo a responsividade */
+/* deixando o formulário veticalmente enquanto estiver com 700px ou menos */
+ @media (max-width: 700px) {
+    .conteudo {
+        width: 80%; 
+        margin: 20px; 
+        flex-direction: column; 
+    }
+
+    .imagem, .formulario {
+        max-width: 100%; 
+    }
+
+    input {
+        font-size: 14px; 
+    }
+}
+
+ @media (max-width: 350px) {
+    .conteudo {
+        width: 95%; 
+    }
+
+    input {
+        width: 80%; 
+        font-size: 10px;
+        max-width: 150px; 
+    }
+} */
+

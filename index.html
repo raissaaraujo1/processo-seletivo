@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inserindo a fonte da letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- chamando o htm para estilizar a página -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <!-- agrupando todo o conteudo da página em uma só div -->
+    <div class="conteudo">
+    <img src="css/img/imagem.jpg" alt="img-cadastro" class="imagem">
+
+    <!-- criando um di só para formulário -->
+    <div class="formulario">
+        <h1>Cadastro</h1>
+        <hr>
+        <!-- pedindo os dados para o cadastro do usuário -->
+        <form class="dados-requeridos">
+        <input type="text" id="nome" placeholder="Nome Completo" required>
+        <input type="text"  id="email" placeholder="Email" required>
+        <input type="password" id="senha" placeholder="Senha" required>
+        <br>
+        <!-- adicionando o método Dados() no botão a fim de que quando o usuário clicar com o mouse no botão de cadastrar aparecer direto o alert -->
+        <button onclick="Dados()">Cadastrar</button>
+    </form>
+
+    </div>
+
+</div>
+
+    <!-- criando o alert -->
+    <script>
+        function Dados() {
+            let nome = document.getElementById("nome").value;
+            let email = document.getElementById("email").value;
+            alert("Dados cadastrados com sucesso!\nNome: " + nome + "\nEmail: " + email);
+        };
+    </script>
+
+</body>
+</html>
