@@ -1,42 +1,24 @@
-# Teste Prático - Estágio de Programação Web
 
-## 📋 Descrição do Teste
-Você deve criar uma **página web simples** que contenha:
-- Um formulário de cadastro com os seguintes campos:
-  - **Nome**
-  - **E-mail**
-  - **Senha**
-- Um botão de submit que exiba os dados preenchidos em um alerta (popup) ao clicar.
+# Tela de cadastro 
+Tela de cadastro produzida com HTML e CSS. 
 
-- Exemplo:
-  
-![Screenshot 2025-04-01 at 16 24 49](https://github.com/user-attachments/assets/6ba08daa-a5be-459f-abc2-a28a021d3ac8)
+# Descrição do projeto
+Interface que possui um formulário de cadastro com layout simples e responsivo utilizando CSS puro. 
 
+# Passo a Passo para visualizar esse projeto
+- Clone este repositório no seu computador
+- Acesse a pasta do projeto
+- Abra o arquivo index.html no seu navegador
 
----
+# Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript
 
-## 🚩 Requisitos
-- A página deve ser **responsiva** (funcionar bem em celular e desktop).
-- Os dados do formulário devem ser exibidos em um `alert()`
+# Funcionalidades com o JavaScript
+- Foi utilizado JavaScript apenas para exibir uma alerta com as informações inseridas pelo usuário.
+- Toda estilização da página foram feitos apenas com CSS3.
 
----
-
-## 🔥 Critérios de Avaliação
-
-1. ✅ **Funcionalidade básica funcionando**.
-2. ✅ **Organização do código**.
-3. ✅ **Estilo simples e responsivo.**
-4. ✅ **README.md bem estruturado explicando como visualizar o projeto.**
-
----
-
-## 📌 Instruções para Entrega
-
-1. Faça um **fork** deste repositório no seu GitHub.
-2. Desenvolva a aplicação conforme os requisitos descritos acima.
-3. Certifique-se de que seu código esteja devidamente organizado.
-4. Inclua instruções no seu README.md explicando como abrir o projeto.
-5. Envie o link do seu repositório GitHub para avaliação.
-
----
-Boa sorte e bom trabalho! 🚀
+# Observações:
+- A senha inserida no formulário não é exibida no alerta por motivos de boas práticas e segurança.
+- No código, há um trecho comentado demonstrando como seria caso a senha fosse exibida — apenas para fins de entendimento técnico.
